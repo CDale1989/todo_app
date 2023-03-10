@@ -1,0 +1,56 @@
+.App {
+  min-height: 100vh;
+  width: 85vw;
+  max-width: 1900px;
+  margin: 0rem auto;
+}
+
+.primary-heading {
+    font-weight: 600;
+    font-size: 3rem;
+    color: red;
+    
+}
+
+.primary-heading-container{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-todo-container {
+  text-decoration: none;
+  color: red;
+  font-size: 3;
+  font-weight: 600;
+  display:flex;
+  justify-content:center;
+  
+}
+
+.added-todo-container {
+    color:black;
+    font-size:2rem;
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+
+}
+
+
+
+.delete-filled {
+    color:red;
+    padding:0.5rem;
+    font-size: 1.5rem;
+    
+}
+
+.added-todo-text {
+    padding:1rem;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
